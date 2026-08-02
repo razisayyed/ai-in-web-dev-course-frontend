@@ -6,7 +6,6 @@ import {
   TableBody,
   TableCaption,
   TableCell,
-  TableFooter,
   TableHead,
   TableHeader,
   TableRow,
@@ -22,15 +21,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 
-import {
-  Field,
-  FieldDescription,
-  FieldGroup,
-  FieldLabel,
-  FieldLegend,
-  FieldSeparator,
-  FieldSet,
-} from "@/components/ui/field"
+import { Field, FieldLabel } from "@/components/ui/field"
 
 import {
   Select,
@@ -55,15 +46,15 @@ interface Expense {
   category: string
 }
 
-interface ExpenseCreate {
-  label: string
-  expense_date: string
-  item_price: number
-  currency: string
-  amount: number
-  unit: string
-  category: string
-}
+// interface ExpenseCreate {
+//   label: string
+//   expense_date: string
+//   item_price: number
+//   currency: string
+//   amount: number
+//   unit: string
+//   category: string
+// }
 
 const units = [
   { label: "Select a unit", value: null },
