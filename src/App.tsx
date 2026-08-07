@@ -297,7 +297,7 @@ export function App() {
           <TableCaption>A list of your expenses.</TableCaption>
           <TableHeader>
             <TableRow>
-              <TableHead className="w-[100px]">Expense</TableHead>
+              <TableHead>Expense</TableHead>
               <TableHead>Date</TableHead>
               <TableHead>Amount</TableHead>
               <TableHead>Price</TableHead>
